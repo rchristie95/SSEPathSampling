@@ -7,7 +7,7 @@ Ensure you have the Parallel Computing Toolbox installed. This toolbox is requir
 If you do not have access to the toolbox, you can replace parfor loops with for loops to run the code in serial.
 Requirements
 MATLAB: Make sure MATLAB is installed.
-Parallel Computing Toolbox: Required for efficient parallel computations. Without this toolbox, code performance may be slower.
+Parallel Computing Toolbox: Required for efficient parallel computations. Without this toolbox, change parfor loops to for loops, performance may be slower.
 Usage
 Download the Repository: Clone this repo using:
 bash
