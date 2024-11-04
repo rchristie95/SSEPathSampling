@@ -50,6 +50,7 @@ function SSETPSSymmetry(h2, h4, Gamma, kT, LambdaVals, windowMat, A, n_equilib, 
 
     %% Umbrella Sampling
     % Define histogram bins for umbrella sampling
+    tic
     binEdges = windowMat(1, 1):0.05:windowMat(2, end);
     nBins = length(binEdges) - 1;
     binCenters = binEdges(1:end-1) + 0.5 * (binEdges(2) - binEdges(1)); % Calculate bin centers

@@ -29,7 +29,7 @@ function LangevinTPSSymmetry(h2, h4, Gamma, kT, LambdaVals, windowMat, A, n_equi
     filenameWorkSpace = sprintf('SymDeepworkspaceLangevinUmbrella_T=%.2f_Gamma=%.2f.mat', kT, Gamma);
 
     %% Umbrella Sampling
-
+    tic
     binEdges = windowMat(1, 1):0.05:windowMat(2, end);
     nBins = length(binEdges) - 1;
     binCenters = binEdges(1:end-1) + 0.5 * (binEdges(2) - binEdges(1));
