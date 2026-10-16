@@ -1,6 +1,6 @@
 # SSEPathSampling
 
-This repository contains MATLAB scripts used for the study **"Transition Path and Interface Sampling of Stochastic Schrödinger Dynamics (2024)"**.
+This repository contains MATLAB scripts used for the study **"Transition Path and Interface Sampling of Stochastic Schrödinger Dynamics"**, published in *The Journal of Chemical Physics* **162**(11), 114120 (2025), [doi:10.1063/5.0246727](https://doi.org/10.1063/5.0246727). The [preprint](https://arxiv.org/abs/2411.00490) was first posted in 2024.
 It implements quantum and classical trajectory sampling techniques such as
 Transition Path Sampling (TPS) and Transition Interface Sampling (TIS).
 
@@ -55,6 +55,19 @@ A license file is not provided. Please contact the authors of the original
 paper for usage permissions.
 
 ## Citing
-If you use this code in academic work, cite
-"Transition Path and Interface Sampling of Stochastic Schrödinger Dynamics (2024)".
 
+Robson Christie, Peter G. Bolhuis, and David T. Limmer, "Transition path and interface sampling of stochastic Schrödinger dynamics", *The Journal of Chemical Physics* **162**(11), 114120 (2025). https://doi.org/10.1063/5.0246727
+
+```bibtex
+@article{Christie2025Transition,
+  author = {Christie, Robson and Bolhuis, Peter G. and Limmer, David T.},
+  title = {Transition path and interface sampling of stochastic Schrödinger dynamics},
+  journal = {The Journal of Chemical Physics},
+  volume = {162},
+  number = {11},
+  pages = {114120},
+  year = {2025},
+  doi = {10.1063/5.0246727},
+  url = {https://doi.org/10.1063/5.0246727}
+}
+```
